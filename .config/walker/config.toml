@@ -50,6 +50,7 @@ provider = "clipboard"
 [providers.actions]
 bitwarden = [
   { action = "copytotp",     label = "copy 2fa",      bind = "ctrl Return" },
+  { action = "typetotp",     label = "type 2fa",      bind = "ctrl t" },
 ]
 
 [[emergencies]]
