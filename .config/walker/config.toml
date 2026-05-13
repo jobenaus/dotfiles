@@ -49,6 +49,10 @@ provider = "clipboard"
 prefix = ";"
 provider = "bitwarden"
 
+[providers.actions]
+bitwarden = [
+  { action = "copytotp",     label = "copy 2fa",      bind = "ctrl Return" },
+]
 
 [[emergencies]]
 text = "Restart Walker"
