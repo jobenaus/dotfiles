@@ -17,7 +17,8 @@ symbols = 1 # providers to be queried by default
 max_results = 256 # 256 should be enough for everyone
 default = [
   "desktopapplications",
-  "websearch",
+  "calc",
+  "websearch"
 ]
 
 [[providers.prefixes]]
@@ -45,9 +46,6 @@ prefix = "$"
 provider = "clipboard"
 
 
-[[providers.prefixes]]
-prefix = ";"
-provider = "bitwarden"
 
 [providers.actions]
 bitwarden = [
