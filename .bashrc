@@ -8,4 +8,6 @@ source ~/.local/share/omarchy/default/bash/rc
 # Add your own exports, aliases, and functions here.
 #
 # Make an alias for invoking commands you use constantly
-alias y="yadm"
+alias y='lazygit \
+  --git-dir="$HOME/.local/share/yadm/repo.git" \
+  --work-tree="$HOME"'
