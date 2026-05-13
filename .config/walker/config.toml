@@ -44,6 +44,12 @@ provider = "websearch"
 prefix = "$"
 provider = "clipboard"
 
+
+[[providers.prefixes]]
+prefix = ";"
+provider = "bitwarden"
+
+
 [[emergencies]]
 text = "Restart Walker"
 command = "omarchy-restart-walker"
