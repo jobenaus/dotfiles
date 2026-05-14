@@ -11,3 +11,5 @@ source ~/.local/share/omarchy/default/bash/rc
 alias y='lazygit \
   --git-dir="$HOME/.local/share/yadm/repo.git" \
   --work-tree="$HOME"'
+
+alias lg='lazygit'
